@@ -48,16 +48,16 @@
 
 ## 🕹️ How to Play (It's NOT Just X's and O's Anymore!)
 
-1️⃣ **Launch the Revolution!** `Open index.html` ➡️ Prepare for awesomeness!  
-2️⃣ **Choose Your Destiny** 👑:  
+- 1️⃣ **Launch the Revolution!** `Open index.html` ➡️ Prepare for awesomeness!  
+- 2️⃣ **Choose Your Destiny** 👑:  
    - 🤖 **Player vs Beano** (Test your metal against AI)  
    - 👥 **PvP Mode** (Destroy friendships locally!)  
-3️⃣ **Customize Your Warzone** ⚙️:  
+- 3️⃣ **Customize Your Warzone** ⚙️:  
    - 🎚️ Grid size (3x3 or 4x4)  
    - 🌀 Game variants (Normal/Blind/Reverse/No-Middle)  
    - 🎨 Pick from 7 stunning themes!  
-4️⃣ **DOMINATE!** Align your symbols ➡️ **BOOM!** 💣 Automatic win detection!  
-5️⃣ **Track Your Glory** 📊: Persistent stats across sessions!  
+- 4️⃣ **DOMINATE!** Align your symbols ➡️ **BOOM!** 💣 Automatic win detection!  
+- 5️⃣ **Track Your Glory** 📊: Persistent stats across sessions!  
 
 ---
 
