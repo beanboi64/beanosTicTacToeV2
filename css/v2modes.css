@@ -1,0 +1,87 @@
+/* Game Variant Styles */
+.blind-variant .cell {
+    color: transparent !important;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* Theme-specific symbol colors */
+.blind-variant {
+    --x-color: #1e88e5;  /* Default blue */
+    --o-color: #e53935;  /* Default red */
+}
+
+/* Temporary reveal animation */
+.blind-variant .cell.played {
+    animation: blind-reveal 2s ease-out forwards;
+}
+
+@keyframes blind-reveal {
+    0%, 90% { 
+        opacity: 1;
+        color: var(--symbol-color) !important; 
+    }
+    100% { 
+        opacity: 0.3;
+        color: transparent !important;
+    }
+}
+
+/* Symbol color enforcement */
+.blind-variant .cell.x-symbol {
+    --symbol-color: var(--x-color);
+    color: var(--x-color) !important;
+}
+
+.blind-variant .cell.o-symbol {
+    --symbol-color: var(--o-color);
+    color: var(--o-color) !important;
+}
+
+/* Hover reveal effect */
+.blind-variant .cell:not(:empty):hover {
+    color: var(--symbol-color) !important;
+    opacity: 0.7;
+}
+
+/* Theme overrides */
+body.dark .blind-variant {
+    --x-color: #42a5f5;
+    --o-color: #ff5252;
+}
+
+body.kitten-1 .blind-variant {
+    --x-color: #ff1493;
+    --o-color: #ff69b4;
+}
+
+body.kitten-2 .blind-variant {
+    --x-color: #2e8b57;
+    --o-color: #3cb371;
+}
+
+body.kitten-3 .blind-variant {
+    --x-color: #663399;
+    --o-color: #9370db;
+}
+
+body.kitten-4 .blind-variant {
+    --x-color: #ff4500;
+    --o-color: #ff7f50;
+}
+
+body.kitten-5 .blind-variant {
+    --x-color: #1e90ff;
+    --o-color: #00bfff;
+}
+
+/* Other variant styles */
+.nomiddle-variant .cell.blocked {
+    background-color: #ffcccc !important;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.reverse-variant .cell.winning {
+    background-color: #ff000033 !important;
+}
